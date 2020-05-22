@@ -39,8 +39,12 @@
         "eslint-plugin-node": "^10.0.0",
         "eslint-plugin-prettier": "^3.1.2",
         "mocha": "^3.5.0",
+        "node-fetch": "^1.6.3",
         "prettier": "^1.19.1",
         "ramda": "^0.27.0",
+        "sinon": "^2.1.0",
+        "sinon-chai": "^2.9.0",
+        "sinon-stub-promise": "^4.0.0",
         "uglifyjs": "^2.4.11",
         "uglifyjs-webpack-plugin": "^2.2.0"
     }
