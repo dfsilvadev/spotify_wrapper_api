@@ -31,9 +31,11 @@ describe('Spotify Wrapper', () => {
 
 	describe('generic search', () => {
 		let fetchedStub;
+		let promise;
 
 		beforeEach(() => {
 			fetchedStub = sinon.stub(global, 'fetch');
+			promise = fetchedStub.returnsPromise();
 		});
 
 		afterEach(() => {
@@ -60,6 +62,13 @@ describe('Spotify Wrapper', () => {
 					'https://api.spotify.com/v1/search?q=Incubus&type=artist,album'
 				);
 			});
+		});
+
+		it('should return the JSON Data from the Promise', () => {
+			promise.resolves({ body: 'json' });
+			const artists = search('Incubus', 'artist');
+
+			expect(artists.resolveValue).to.be.eql({ body: 'json' });
 		});
 	});
 });
