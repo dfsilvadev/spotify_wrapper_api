@@ -1,7 +1,7 @@
 'user strict';
 export const search = (query, type) => {
 	const accessToken =
-		'BQB7A8_eGO8t0kpqMGhhYeffUWR72PaUgx3iCu3DdoRMa7IY_6lnQlkjhJ0gTR36NbeAXeN8r8gGfqFBdsqeDtaNp5YRF1yVVSGZn0_EkHQsXWf_viU1KGFFLsn5s_HIWqcURCWvxN6dOwI';
+		'BQADZEGzgTiXv0My1CUkoZGSUCfQp0nnRNb-f7bZFrzqs3nzlgD89H7XKFaXWb4kVrIWBHH9sa6N_9U--aBlxnFjnJ0aSmCYcc_-AdoTKeK6_GYgMvG8mnmtCfIP4MJJWAIfhs_I5u3Ya_Q';
 
 	return fetch(`https://api.spotify.com/v1/search?q=${query}&type=${type}`, {
 		method: 'GET',
