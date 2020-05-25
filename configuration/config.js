@@ -1,6 +1,6 @@
 "user strict";
 const TOKEN_API =
-    "BQCmL42L4tGFqTGA09Gk8GnSKU8ZsJhcjIVE_oQx5F7uVcpwZIvPdHWjENVOoykG2XZLvtSH6-1f-jYR2t11TvUOv_Po3s37ThLMF3ZwR_VzYZl1BTxYfw0JmuG5TeYrBbuZmc3mgFyNfyM";
+    "BQBgk8gGe69oXKu596qsiBdyvbZtHA7niuaVxz2eeLjr88DCvQE3fDZefEIT4qDz0vjbrK9Gd-NmGb4oD9lNx41O--Q9KrBahH1tnyEZ33X9jCV1lRBrTg61TfY5tufWUsgHtwCMqW6nWbU";
 
 export const HEADERS = {
     method: "GET",
