@@ -1,4 +1,4 @@
-'user strict';
+'use strict';
 import { obj, API_URL } from '../configuration/config';
 import { toJSON } from './utils';
 
