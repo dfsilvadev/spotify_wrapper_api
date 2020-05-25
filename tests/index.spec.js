@@ -76,6 +76,7 @@ describe("Spotify Wrapper Library", () => {
                 token: "foo"
             });
             spotify.request("url");
+
             const headers = {
                 method: "GET",
                 headers: {
