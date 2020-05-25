@@ -1,1 +1,1 @@
-export const toJSON = (data) => data.json().then(data => console.log(data));
+export const toJSON = (data) => data.json();
