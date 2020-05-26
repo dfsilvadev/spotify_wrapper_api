@@ -8,7 +8,7 @@
         "build": "./node_modules/.bin/babel --out-dir lib src",
         "build:watch": "npm rum build --watch",
         "build:umd": "./node_modules/.bin/webpack --output-filename spotify-wrapper.umd.js",
-        "build:umd:min": "./node_modules/.bin/webpack --output-filename spotify-wrapper.umd.min.js -p",
+        "build:umd:min": "./node_modules/.bin/webpack --output-filename my-spotify-wrapper.umd.min.js -p",
         "watch": "npm run build -- --watch",
         "test": "./node_modules/.bin/mocha tests/**/*.spec.js --require babel-register",
         "test:tdd": "./node_modules/.bin/mocha tests/**/*.spec.js --require babel-register --watch"
