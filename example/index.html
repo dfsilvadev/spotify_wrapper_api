@@ -24,7 +24,11 @@
 
         <script src="../dist/spotify-wrapper.umd.js"></script>
         <script>
-            const albums = SpotifyWrapper.searchAlbums("Zé Neto e Cristiano");
+            const spotify = new SpotifyWrapper({
+                token:
+                    "BQB6OoUYZO7z6_hS8zXXTF3pTrqvHy0I8Z8OMy0CKZzC4NYIPcmITvDOKrePSKyKFO2rlLEWgHBUfh-L84eXt_g5ekMnHBs5MsiDAX5Al9DzDutuK1HF3sORcyR8OGPy5vICmOdkWdesjxc"
+            });
+            const albums = spotify.search.albums("Amado Batista");
             const albumsEl = document.getElementById("albums");
 
             albums.then(data => {
