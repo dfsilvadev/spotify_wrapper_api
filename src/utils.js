@@ -1,1 +1,3 @@
-export const toJSON = (data) => data.json();
+"use strict";
+const toJSON = data => data.json();
+export default toJSON;
