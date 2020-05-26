@@ -57,5 +57,8 @@
         "uglifyjs-webpack-plugin": "^2.2.0",
         "webpack-cli": "^3.3.11",
         "webpack": "^4.43.0"
+    },
+    "dependencies": {
+        "@my-scope/my-lib": "^1.0.5"
     }
 }
